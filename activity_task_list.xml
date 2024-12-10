@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@mipmap/ic_bg2_foreground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Task List"
+        android:textColor="#0F52BA"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tasksRecyclerView"
+        android:layout_width="372dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="Back"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>
